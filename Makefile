@@ -1,5 +1,5 @@
-kilo: kilo.o
-	g++ -o kilo kilo.o -lcurses
+boson: boson.o
+	g++ -o boson boson.o -lcurses
 
-kilo.o: kilo.cpp
-	g++ -c kilo.cpp
+boson.o: boson.cpp
+	g++ -c boson.cpp
